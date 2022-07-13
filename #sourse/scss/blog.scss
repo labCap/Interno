@@ -1,0 +1,92 @@
+.blog {
+    margin-bottom: 140px;
+
+    &__header {
+        max-width: 590px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__descr {
+        margin-bottom: 70px;
+    }
+
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 -20px;
+    }
+
+    &__card {
+        flex: 0 1 387px;
+        margin: 0 10px 40px;
+        padding: 21px;
+        border: 1px solid #E7E7E7;
+        border-radius: 62px;
+    }
+
+    &__img {
+        margin-bottom: 15px;
+        max-width: 345px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        position: relative;
+    }
+
+    &__info {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.22px;
+        color: $black;
+        padding: 10px;
+        background: #fff;
+        border-radius: 8px;
+        position: absolute;
+        left: 24px;
+        bottom: 30px;
+    }
+
+    &__text {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__tilte {
+        font-family: 'DM Serif Display';
+
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: 0.5px;
+
+        color: #292F36;
+        margin-bottom: 20px;
+    }
+
+    &__date {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.22px;
+        color: $grey;
+    }
+
+    &__btn {
+        width: 52px;
+        height: 52px;
+
+        &::before {
+            margin: 0 0 0 -6px;
+        }
+    }
+}

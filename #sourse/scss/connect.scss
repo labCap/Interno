@@ -1,0 +1,40 @@
+.connect {
+    margin-bottom: 80px;
+
+    &__inner {
+        background: #292F36;
+        border-radius: 70px;
+        color: #fff;
+        text-align: center;
+        padding: 100px 0;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+
+    &__descr {
+        margin-bottom: 31px;
+        color: #fff;
+    }
+
+    &__btn {
+        i {
+            color: $black;
+        }
+
+        transition: $transition;
+        background: #CDA274;
+
+        &:hover {
+            background: #ebc49b;
+            color: $grey;
+        }
+
+        &:active {
+            background: #e6ccb0;
+            color: $black;
+        }
+    }
+}

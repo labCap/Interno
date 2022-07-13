@@ -1,0 +1,79 @@
+.projects {
+    margin-bottom: 80px;
+    // &__inner {}
+
+    &__header {
+        text-align: center;
+
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__descr {
+        margin-bottom: 70px;
+    }
+
+    &__body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -10px;
+
+        @media (max-width:1024px) {
+            justify-content: center;
+        }
+    }
+
+    &__card {
+        // flex: 1 1 0;
+        max-width: 590px;
+        margin: 0 10px 60px;
+    }
+
+    &__img {
+        max-width: 590px;
+        height: auto;
+        margin-bottom: 24px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+    &__text-box {
+        position: relative;
+        padding: 0 70px 0 0;
+    }
+
+    &__card-title {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 38px;
+        transition: $transition;
+
+        &:hover {
+            color: $brown;
+        }
+
+        &:active {
+            color: #9c7c5a;
+        }
+    }
+
+    &__card-subtitle {
+        font-size: 22px;
+        line-height: 33px;
+        color: $grey;
+    }
+
+    &__btn {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}

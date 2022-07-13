@@ -1,0 +1,136 @@
+.footer {
+
+    // &__inner {}
+
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 0;
+        justify-content: space-between;
+
+        border-bottom: 1px solid #E5E5E5;
+    }
+
+    &__box {
+        max-width: 326px;
+        margin: 20px 40px 0 0;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+
+    &__box-list {
+        max-width: 210px;
+    }
+
+    &__logo {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+    }
+
+    &__ico {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title {
+        font-family: 'DM Serif Display';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        letter-spacing: 0.22px;
+
+        color: #292F36;
+        margin-bottom: 22px;
+    }
+
+    &__list {
+        li {
+            margin-bottom: 30px;
+
+            a {
+                transition: $transition;
+
+                &:hover {
+                    color: $brown;
+                }
+
+                &:active {
+                    color: #9c7c5a;
+                }
+            }
+        }
+    }
+
+    &__address {
+        margin-bottom: 30px;
+
+    }
+
+    &__email {
+        margin-bottom: 30px;
+
+        transition: $transition;
+
+        &:hover {
+            color: $brown;
+        }
+
+        &:active {
+            color: #9c7c5a;
+        }
+    }
+
+    &__tel {
+
+        transition: $transition;
+
+        &:hover {
+            color: $brown;
+        }
+
+        &:active {
+            color: #9c7c5a;
+        }
+    }
+
+    &__bottom {
+        text-align: center;
+        padding: 35px 0;
+
+        a {
+            transition: $transition;
+            color: $brown;
+
+            &:hover {
+                color: $black;
+            }
+
+            &:active {
+                color: $grey;
+            }
+        }
+    }
+}
+
+.ico {
+
+
+    &__link {
+        font-size: 20px;
+        margin: 0 40px 0 0;
+        transition: $transition;
+
+        &:hover {
+            color: $brown;
+        }
+
+        &:active {
+            color: #9c7c5a;
+        }
+    }
+}
