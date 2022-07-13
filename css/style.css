@@ -617,7 +617,7 @@ a {
           justify-content: space-between;
   margin: 0 -10px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1290px) {
   .projects__body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
